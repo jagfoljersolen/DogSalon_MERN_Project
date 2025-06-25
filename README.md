@@ -35,4 +35,4 @@ MongoDB v8.0.10
 	npm start
 5. Następnie uruchom frontend:
 	npm start
-Frontend powinien sam włączyć się w przeglądarce pod adresem http://localhost:3000
+Frontend powinien sam włączyć się w przeglądarce pod adresem http://localhost:3000 
