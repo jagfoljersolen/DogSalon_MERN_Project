@@ -35,13 +35,13 @@ Software versions used to develop the application (the app has not been tested f
 - MongoDB v8.0.10
 
 ## Running the Application
-1. In the backend (server) root directory, run:
+## 1. In the backend (server) root directory, run:
 	npm install
-2. In the frontend (client) directory, run:
+## 2. In the frontend (client) directory, run:
 	npm install
-3. Make sure MongoDB v8.0.10 is running locally
-4. First, start the backend server:
+## 3. Make sure MongoDB v8.0.10 is running locally
+## 4. First, start the backend server:
 	npm start
-5. Then start the frontend:
+## 5. Then start the frontend:
 	npm start
 The frontend should automatically open in your browser at http://localhost:3000
