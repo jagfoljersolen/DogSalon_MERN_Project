@@ -1,38 +1,47 @@
-## Projekt zaliczeniowy z laboratorium "Szkielety programistyczne w aplikacjach internetowych"
+## Final project for the lab "Web Application Frameworks"
 
-## Tematyka projektu: Salon Fryzjerski dla Psów - umawianie wizyt
+## Project Topic: Dog Grooming Salon – Appointment Booking
 
-## Funkcjonalności
-- uwierzytelnienie z wykorzystaniem tokenów
-- umawianie wizyty 
-- przeglądanie historii wizyt
-- edytowanie wizyty
-- anulowanie wizyty
-- walidacja po stronie klienta i serwer
-- interfejs API w architekturze REST
-- haszowanie haseł
+## Features
+
+- Authentication using tokens
+
+- Booking an appointment
+
+- Viewing appointment history
+
+- Editing an appointment
+
+- Canceling an appointment
+
+- Client-side and server-side validation
+
+- REST API architecture
+
+- Password hashing
 
 
-## Narzędzia i technologie
-- serwer: Node.js v22.12.0 + Express ^5.1.0
-- klient: React ^19.1.0
-- baza danych: MongoDB v8.0.10
 
-## Wymagania
-Wersje programów wykorzystane do tworzenia aplikacji (aplikacja nie została przetestowana z kompatybilnością wcześniejszych wersji):
+## Tools and Technologies
+- Server: Node.js v22.12.0 + Express ^5.1.0
+- Client: React ^19.1.0
+- Database: MongoDB v8.0.10
+
+## Requirements
+Software versions used to develop the application (the app has not been tested for compatibility with earlier versions):
 Node.js v22.12.0
 Express ^5.1.0
 React ^19.1.0
 MongoDB v8.0.10
 
-## Uruchomienie
-1. W katalogu głównym backendu (serwera) uruchom:
+## Running the Application
+1. In the backend (server) root directory, run:
 	npm install
-2. W katalogu frontendowym (klienta) uruchom:
+2. In the frontend (client) directory, run:
 	npm install
-3. Upewnij się, że MongoDB v8.0.10 jest uruchomiony lokalnie 
-4. Najpierw uruchom serwer backend:
+3. Make sure MongoDB v8.0.10 is running locally
+4. First, start the backend server:
 	npm start
-5. Następnie uruchom frontend:
+5. Then start the frontend:
 	npm start
-Frontend powinien sam włączyć się w przeglądarce pod adresem http://localhost:3000 
+The frontend should automatically open in your browser at http://localhost:3000
