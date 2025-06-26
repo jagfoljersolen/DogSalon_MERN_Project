@@ -29,10 +29,10 @@
 
 ## Requirements
 Software versions used to develop the application (the app has not been tested for compatibility with earlier versions):
-Node.js v22.12.0
-Express ^5.1.0
-React ^19.1.0
-MongoDB v8.0.10
+- Node.js v22.12.0
+- Express ^5.1.0
+- React ^19.1.0
+- MongoDB v8.0.10
 
 ## Running the Application
 1. In the backend (server) root directory, run:
